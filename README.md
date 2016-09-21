@@ -15,7 +15,7 @@ $ npm install vue-bulma-message --save
 ```vue
 <template>
   <div>
-    <message :title="'Normal'" :direction="'down'" :message="'Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit'" :duration="0"></message>
+    <message :title="'Normal'" :direction="'Down'" :message="'Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit'" :duration="0"></message>
     <button class="button" @click="openMessageWithType('')">Normal</button>
     <button class="button is-primary" @click="openMessageWithType('primary')">Primary</button>
     <button class="button is-info" @click="openMessageWithType('info')">Info</button>
