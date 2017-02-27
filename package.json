@@ -1,6 +1,6 @@
 {
   "name": "vue-bulma-message",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Message component for Vue Bulma",
   "main": "src/Message.vue",
   "peerDependencies": {
